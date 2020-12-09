@@ -9,7 +9,7 @@ public class IDaoProxy implements IDao {
 
     private IDao dao;
 
-    public IDaoProxy (IDao iDao) {
+    public IDaoProxy(IDao iDao) {
         this.dao = iDao;
     }
 
